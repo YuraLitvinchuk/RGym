@@ -111,7 +111,6 @@
         line-height: 26px;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        animation:shakeIt 1.5s infinite;
         transform: rotate(90deg);
         span{
             margin-right: 18px;
@@ -124,11 +123,5 @@
             cursor: pointer;
             transition: .4s ease;
         }
-    }
-
-    @keyframes shakeIt{
-        0%{margin-top: 0px;}
-        50%{margin-top: -100px;}
-        100%{margin-top: 0px;}
     }
 }

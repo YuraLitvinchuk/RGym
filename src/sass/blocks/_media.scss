@@ -101,6 +101,22 @@
         &__header_nav{
             display: none;
         }
+        .burger{
+            span{
+                display: block;
+            }
+        }
+        &__scrollpanel{
+            display: none;
+        }
+    }
+    .training{
+        &__personal-item{
+            img{
+                width: 290px;
+                height: 200px;
+            }
+        }
     }
 }
 
