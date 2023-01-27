@@ -110,18 +110,77 @@
             display: none;
         }
     }
+    .exercise{
+        &__photo{
+            grid-template-columns: repeat( 3, 1fr);
+            row-gap: 35px;
+        }
+    }
     .training{
+        &__plan{
+            justify-content: start;
+        }
+        &__title{
+            margin-right: 30px;
+        }
+        &__description{
+            font-size:1rem;
+        }
         &__personal-item{
             img{
                 width: 290px;
                 height: 200px;
             }
         }
+        &__photo-specifications{
+            font-size: 1rem;
+        }
+    }
+    .subscribe{
+        &__chest{
+            img{
+                width: 300px;
+                height: 200px;
+            }
+        }
+        &__title{
+            font-size: 2rem;
+        }
+        &__description{
+            font-size: 1rem;
+        }
+    }
+    .footer{
+        h3{
+            font-size: 1.5rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+        ul{
+            li{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+        &__copyright{
+            p{
+                margin-top: 50px;
+            }
+        }
     }
 }
 
 @media(max-width: 768px){
-
+    .container{
+        max-width: 528px;
+    }
+    .menu{
+        &__block{
+            width: 200px;
+        }
+    }
 }
 
 @media(max-width: 576px){
