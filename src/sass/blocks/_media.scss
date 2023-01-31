@@ -176,9 +176,52 @@
     .container{
         max-width: 528px;
     }
-    .menu{
-        &__block{
-            width: 200px;
+    .promo{
+        &__title{
+            margin:100px auto 0px auto;
+            font-size: 40px;
+            line-height: 55px;
+            text-align: center;
+            span{
+                font-size: 40px;
+                line-height: 55px;
+            }
+        }
+    }
+    .exercise{
+        &__description{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    .training{
+        &__personal-item{
+            position: static;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            img{
+                width: 100%;
+                height: auto;
+                object-fit: fill;
+            }
+        }
+        &__photo{
+            flex-direction: column;
+            align-items:stretch;
+            padding-top: 0px;
+            width: 100%;
+            &-item{
+                flex-grow: initial;
+                margin: 20px 0px 0px 0px;
+                &:nth-child(2){
+                    margin: 20px 0px 0px 0px;
+                }
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
         }
     }
 }
