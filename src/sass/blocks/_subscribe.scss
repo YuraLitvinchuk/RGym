@@ -9,8 +9,8 @@
         top: 0;
         left: 0;
         z-index: 10;
-        width: 514px;
-        height: 369px;
+        max-width: 514px;
+        max-height: 369px;
         img{
             width: 100%;
             height: 100%;
@@ -50,10 +50,11 @@
         position: relative;
         input{
             padding: 17px 10px;
-            width: 402px;
+            max-width: 402px;
             height: 60px;
             opacity: 1;
             font-size: 24px;
+            color:#fff;
             background-color: rgba(0,0,0,0);
             &::placeholder{
                 font-family: 'Montserrat';
@@ -69,6 +70,7 @@
                 cursor: pointer;
                 transition: 1s ease;
                 border:none;
+                color:#000;
                 background-color: rgba(255,255,255,1);
             }
             &:hover::placeholder{
@@ -87,7 +89,8 @@
         margin-top: 16px;
         position: relative;
         input{
-            width: 402px;
+            display: block;
+            width: 100%;
             height: 60px;
             background-color: rgba(0,0,0,0);
             color:#fff;

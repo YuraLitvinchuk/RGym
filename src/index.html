@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rGYm</title>
+    <title>RGym</title>
+    <meta name="title" content="RGym">
+    <meta name="description" content="Create your body with us! Our gym and trainers will help you with this!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="RGym">
+    <meta property="og:description" content="Create your body with us! Our gym and trainers will help you with this!">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="RGym">
+    <meta property="twitter:description" content="Create your body with us! Our gym and trainers will help you with this!">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -45,10 +81,10 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#">Traning</a></li>
-                    <li class="menu__link"><a href="#">Studio Classess</a></li>
-                    <li class="menu__link"><a href="#">Lifestyle</a></li>
-                    <li class="menu__link"><a href="#">Contact</a></li>
+                    <li class="menu__link"><a href="#exercise">Traning</a></li>
+                    <li class="menu__link"><a href="#training">Studio Classess</a></li>
+                    <li class="menu__link"><a href="#subscribe">Lifestyle</a></li>
+                    <li class="menu__link"><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
             <div class="menu__social">
@@ -72,7 +108,7 @@
         <div class="menu__overlay"></div>
     </div>
 
-    <main class="promo">
+    <main class="promo" id="promo">
         <div class="burger">
             <span></span>
             <span></span>
@@ -91,45 +127,48 @@
                 </div>
                 <nav class="promo__header_nav">
                     <ul class="promo__header_menu">
-                        <li><a href="#">Traning</a></li>
-                        <li><a href="#">Studio Classess</a></li>
-                        <li><a href="#">Lifestyle</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#exercise">Traning</a></li>
+                        <li><a href="#training">Studio Classess</a></li>
+                        <li><a href="#subscribe">Lifestyle</a></li>
+                        <li><a href="#footer">Contact</a></li>
                     </ul>
                 </nav>
             </header>
-            <h1 class="promo__title animate__animated animate__fadeIn">
+            <h1 class="promo__title wow animate__animated animate__fadeIn">
                 Making <br>
                 Different from <br>
                 other builders<span>.</span>
             </h1>
             <div class="promo__video">
-                <button class="promo__btn animate__animated animate__fadeIn">Get Started</button>
-                <a href="#" class="animate__animated animate__fadeIn">
+                <button class="promo__btn wow animate__animated animate__fadeIn">Get Started</button>
+                <a href="#" class="wow animate__animated animate__fadeIn">
                     <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17.685 13.7805L17.6852 13.7806L27.8498 20.5556L27.8501 20.5558C27.8958 20.5863 27.9333 20.6275 27.9592 20.6759C27.9852 20.7243 27.9987 20.7784 27.9987 20.8333C27.9987 20.8883 27.9852 20.9423 27.9592 20.9907C27.9333 21.0392 27.8958 21.0804 27.8501 21.1108L27.8498 21.111L17.6842 27.8853C17.684 27.8855 17.6838 27.8856 17.6836 27.8857C17.6336 27.9187 17.5756 27.9376 17.5157 27.9405C17.4556 27.9433 17.3959 27.9298 17.3428 27.9015L17.1071 28.3424L17.3428 27.9015C17.2898 27.8731 17.2454 27.8309 17.2144 27.7794L16.786 28.0371L17.2144 27.7794C17.1835 27.728 17.167 27.6693 17.1667 27.6095V14.0572C17.1668 13.9969 17.1832 13.9378 17.2143 13.8861C17.2454 13.8344 17.2899 13.7921 17.343 13.7637C17.3962 13.7353 17.4561 13.7219 17.5163 13.7249C17.5766 13.7278 17.6348 13.747 17.685 13.7805ZM20.8333 41.1667C9.60323 41.1667 0.5 32.0634 0.5 20.8333C0.5 9.60323 9.60323 0.5 20.8333 0.5C32.0634 0.5 41.1667 9.60323 41.1667 20.8333C41.1667 32.0634 32.0634 41.1667 20.8333 41.1667ZM20.8333 38C25.3862 38 29.7526 36.1914 32.972 32.972C36.1914 29.7526 38 25.3862 38 20.8333C38 16.2805 36.1914 11.914 32.972 8.69467C29.7526 5.47529 25.3862 3.66667 20.8333 3.66667C16.2805 3.66667 11.914 5.47529 8.69467 8.69467C5.47529 11.914 3.66667 16.2805 3.66667 20.8333C3.66667 25.3862 5.47529 29.7526 8.69467 32.972C11.914 36.1914 16.2805 38 20.8333 38Z" fill="white" stroke="black"/>
                     </svg>
                 </a>
             </div>
-            <div class="promo__scrollpanel">
-                <span class="promo__scrollDown">Scroll Down</span>
-                <svg width="8" height="19" viewBox="0 0 8 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3.64645 18.3536C3.84171 18.5488 4.15829 18.5488 4.35355 18.3536L7.53553 15.1716C7.7308 14.9763 7.7308 14.6597 7.53553 14.4645C7.34027 14.2692 7.02369 14.2692 6.82843 14.4645L4 17.2929L1.17157 14.4645C0.97631 14.2692 0.659728 14.2692 0.464465 14.4645C0.269203 14.6597 0.269203 14.9763 0.464465 15.1716L3.64645 18.3536ZM3.5 -2.18557e-08L3.5 18L4.5 18L4.5 2.18557e-08L3.5 -2.18557e-08Z" fill="#fff"/>
-                </svg>
-            </div>
+        </div>
+        <div class="homePage" hidden>
+            <a href="#promo">
+                <svg width="35" height="35" viewBox="0 0 49 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M38.0625 47C40.9633 47 43.7453 45.8477 45.7965 43.7965C47.8477 41.7453 49 38.9633 49 36.0625C49 33.1617 47.8477 30.3797 45.7965 28.3285C43.7453 26.2773 40.9633 25.125 38.0625 25.125C35.1617 25.125 32.3797 26.2773 30.3285 28.3285C28.2773 30.3797 27.125 33.1617 27.125 36.0625C27.125 38.9633 28.2773 41.7453 30.3285 43.7965C32.3797 45.8477 35.1617 47 38.0625 47ZM39.1688 28.7062L43.8563 33.3937C44.1496 33.6871 44.3145 34.0851 44.3145 34.5C44.3145 34.9149 44.1496 35.3129 43.8563 35.6063C43.5629 35.8996 43.1649 36.0645 42.75 36.0645C42.3351 36.0645 41.9371 35.8996 41.6437 35.6063L39.625 33.5844V42.3125C39.625 42.7269 39.4604 43.1243 39.1674 43.4174C38.8743 43.7104 38.4769 43.875 38.0625 43.875C37.6481 43.875 37.2507 43.7104 36.9576 43.4174C36.6646 43.1243 36.5 42.7269 36.5 42.3125V33.5844L34.4813 35.6063C34.1883 35.8996 33.7907 36.0646 33.3761 36.0649C32.9615 36.0652 32.5637 35.9008 32.2703 35.6078C31.9769 35.3148 31.8119 34.9173 31.8116 34.5027C31.8113 34.088 31.9758 33.6903 32.2687 33.3969L36.9562 28.7094C37.1014 28.5639 37.2738 28.4484 37.4636 28.3696C37.6535 28.2909 37.857 28.2503 38.0625 28.2503C38.268 28.2503 38.4715 28.2909 38.6614 28.3696C38.8512 28.4484 39.0236 28.5639 39.1688 28.7094V28.7062Z 
+                    M26.2094 1.68754C25.6233 1.10169 24.8286 0.772583 24 0.772583C23.1714 0.772583 22.3766 1.10169 21.7906 1.68754L1.01874 22.4563C0.873465 22.6016 0.758227 22.774 0.679605 22.9638C0.600983 23.1537 0.560516 23.3571 0.560516 23.5625C0.560516 23.768 0.600983 23.9714 0.679605 24.1612C0.758227 24.351 0.873465 24.5235 1.01874 24.6688C1.31214 24.9622 1.71007 25.127 2.12499 25.127C2.33044 25.127 2.53388 25.0865 2.72369 25.0079C2.9135 24.9293 3.08597 24.8141 3.23124 24.6688L24 3.89692L44.7687 24.6688C45.0621 24.9622 45.4601 25.127 45.875 25.127C46.2899 25.127 46.6878 24.9622 46.9812 24.6688C47.2746 24.3754 47.4395 23.9775 47.4395 23.5625C47.4395 23.1476 47.2746 22.7497 46.9812 22.4563L39.625 15.1032V4.81254C39.625 4.39814 39.4604 4.00071 39.1673 3.70769C38.8743 3.41466 38.4769 3.25004 38.0625 3.25004H34.9375C34.5231 3.25004 34.1257 3.41466 33.8326 3.70769C33.5396 4.00071 33.375 4.39814 33.375 4.81254V8.85316L26.2094 1.68754Z 
+                    M24 7.29065L38.725 22.0156C36.125 21.8928 33.5419 22.494 31.2634 23.7523C28.9848 25.0106 27.1002 26.8766 25.8193 29.1425C24.5385 31.4085 23.9117 33.9854 24.0087 36.5865C24.1057 39.1876 24.9227 41.7108 26.3688 43.875H9.9375C8.6943 43.875 7.50201 43.3812 6.62294 42.5021C5.74386 41.623 5.25 40.4307 5.25 39.1875V26.0406L24 7.29065Z" fill="#FFF"/>
+                    </svg>
+            </a>
         </div>
     </main>
 
-    <section class="exercise">
-        <h2 class="exercise__title animate__animated animate__fadeIn">Popular Exercise</h2>
-        <p class="exercise__description animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <section class="exercise" id="exercise">
+        <h2 class="exercise__title wow animate__animated animate__fadeIn">Popular Exercise</h2>
+        <p class="exercise__description wow animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="exercise__divider">
             <svg width="165" height="28" viewBox="0 0 165 28" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 26L24.2857 2L47.5714 26L70.8571 2L94.1429 26L117.429 2L140.714 26L164 2" stroke="#E74C3C" stroke-width="2"/>
             </svg>
         </div>
         <div class="exercise__photo">
-            <a href="#" class="exercise__item">
+            <a href="#" class="exercise__item wow animate__animated animate__fadeIn">
                 <img src="./img/exercise/Exercise1.jpg" alt="Exercise1">
                 <div class="exercise__item-seeWorkout">
                     <span class="topHover_up odd"></span>
@@ -139,7 +178,7 @@
                     <span class="downHover_down odd"></span>
                 </div>
             </a>
-            <a href="#" class="exercise__item">
+            <a href="#" class="exercise__item wow animate__animated animate__fadeIn">
                 <img src="./img/exercise/Exercise2.jpg" alt="Exercise2">
                 <div class="exercise__item-seeWorkout">
                     <span class="topHover_up even"></span>
@@ -149,7 +188,7 @@
                     <span class="downHover_down even"></span>
                 </div>
             </a>
-            <a href="#" class="exercise__item">
+            <a href="#" class="exercise__item wow animate__animated animate__fadeIn">
                 <img src="./img/exercise/Exercise3.jpg" alt="Exercise3">
                 <div class="exercise__item-seeWorkout">
                     <span class="topHover_up odd"></span>
@@ -159,7 +198,7 @@
                     <span class="downHover_down odd"></span>
                 </div>
             </a>
-            <a href="#" class="exercise__item">
+            <a href="#" class="exercise__item wow animate__animated animate__fadeIn">
                 <img src="./img/exercise/Exercise4.jpg" alt="Exercise4">
                 <div class="exercise__item-seeWorkout">
                     <span class="topHover_up even"></span>
@@ -169,7 +208,7 @@
                     <span class="downHover_down even"></span>
                 </div>
             </a>
-            <a href="#" class="exercise__item">
+            <a href="#" class="exercise__item wow animate__animated animate__fadeIn">
                 <img src="./img/exercise/Exercise5.jpg" alt="Exercise5">
                 <div class="exercise__item-seeWorkout">
                     <span class="topHover_up odd"></span>
@@ -182,51 +221,51 @@
         </div>
     </section>
 
-    <section class="training">
+    <section class="training" id="training">
         <div class="container">
             <div class="training__plan">
-                <h2 class="training__title animate__animated animate__fadeIn">The ultimate online online personal training plans</h2>
-                <p class="training__description animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero.</p>
+                <h2 class="training__title wow animate__animated animate__fadeIn">The ultimate online online personal training plans</h2>
+                <p class="training__description wow animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero.</p>
             </div>
         </div>
         <div class="training__personal">
             <div class="training__personal-img">
-                <img class="animate__animated animate__lightSpeedInLeft" src="./img/training/Training1.jpg" alt="barbell">
+                <img class="wow animate__animated animate__lightSpeedInLeft" src="./img/training/Training1.jpg" alt="barbell">
             </div>
             <div class="training__personal-description">
-                <h2 class="training__personal-title animate__animated animate__fadeIn">Personal training</h2>
-                <h3 class="training__personal-optimized animate__animated animate__fadeIn">Gym time optimized</h3>
-                <p class="training__personal-specifications animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero.</p>
+                <h2 class="training__personal-title wow animate__animated animate__fadeIn">Personal training</h2>
+                <h3 class="training__personal-optimized wow animate__animated animate__fadeIn">Gym time optimized</h3>
+                <p class="training__personal-specifications wow animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero.</p>
             </div>
             <div class="training__personal-item">
-                <img class="animate__animated animate__lightSpeedInRight" src="./img/training/Training2.jpg" alt="dumbbells">
+                <img class="wow animate__animated animate__lightSpeedInRight" src="./img/training/Training2.jpg" alt="dumbbells">
             </div>
         </div>
         <div class="training__photo">
             <div class="training__photo-item">
-                <img class="animate__animated animate__lightSpeedInLeft" src="./img/training/Training3.jpg" alt="running">
+                <img class="wow animate__animated animate__lightSpeedInLeft" src="./img/training/Training3.jpg" alt="running">
             </div>
             <div class="training__photo-item">
-                <img class="animate__animated animate__fadeIn" src="./img/training/Training4.jpg" alt="triceps">
+                <img class="wow animate__animated animate__fadeIn" src="./img/training/Training4.jpg" alt="triceps">
                 <h3 class="training__photo-title">Welcome to <span>R</span>Gym</h3>
                 <p class="training__photo-specifications">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque sa gittis magna erat sagittis morbi. Id libero.</p>
             </div>
             <div class="training__photo-item">
-                <img class="animate__animated animate__lightSpeedInRight" src="./img/training/Training5.jpg" alt="deadlift">
+                <img class="wow animate__animated animate__lightSpeedInRight" src="./img/training/Training5.jpg" alt="deadlift">
             </div>
         </div>
     </section>
 
-    <section class="subscribe">
+    <section class="subscribe" id="subscribe">
         <div class="subscribe__chest">
-            <img class="animate__animated animate__lightSpeedInLeft" src="./img/subscribe/Chest.jpg" alt="Chest">
+            <img class="wow animate__animated animate__lightSpeedInLeft" src="./img/subscribe/Chest.jpg" alt="Chest">
         </div>
         <div class="subscribe__newsletter">
-            <h2 class="subscribe__title animate__animated animate__fadeIn">Subscribe to our newsletter</h2>
-            <p class="subscribe__description animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque.</p>
-            <form action="#">
+            <h2 class="subscribe__title wow animate__animated animate__fadeIn">Subscribe to our newsletter</h2>
+            <p class="subscribe__description wow animate__animated animate__fadeIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dui neque.</p>
+            <form action="#" class="subscribe__form">
                 <div class="subscribe__email">
-                    <input type="email" id="email" name="email" placeholder="Enter email">
+                    <input type="email" id="email" name="email" placeholder="Enter email" required>
                     <label for="email"></label>
                 </div>
                 <div class="subscribe__submit">
@@ -237,9 +276,9 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
-            <div class="footer__wrapper animate__animated animate__fadeIn">
+            <div class="footer__wrapper wow animate__animated animate__fadeIn">
                 <div class="footer__rgym">
                     <a href="#">RGym</a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam </p>
@@ -294,10 +333,17 @@
             </div>
             <div class="footer__copyright">
                 <p>Copyright © 2021 <span>R</span>Gym. All Rights Reserved.</p>
+                <p>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Right CSS!" />
+                     </a>
+                </p>
             </div>    
         </div>
     </footer>
-
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
