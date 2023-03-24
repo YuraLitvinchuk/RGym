@@ -33,9 +33,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
   function validateEmail() {
     if (isEmailValid(emailInput.value)) {
-      emailInput.style.backgroundColor = "green";
+      emailInput.style.borderColor = "green";
     } else {
-      emailInput.style.backgroundColor = "red";
+      emailInput.style.borderColor = "red";
     }
   }
 
